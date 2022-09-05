@@ -16,10 +16,12 @@ specifiers:
   supertest: ^6.2.4
   ts-node-dev: ^1.1.8
   typescript: ^4.8.2
+  zod: ^3.18.0
 
 dependencies:
   cors: 2.8.5
   express: 4.18.1
+  zod: 3.18.0
 
 devDependencies:
   '@swc-node/jest': 1.5.2_typescript@4.8.2
@@ -3842,3 +3844,7 @@ packages:
     resolution: {integrity: sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==}
     engines: {node: '>=6'}
     dev: true
+
+  /zod/3.18.0:
+    resolution: {integrity: sha512-gwTm8RfUCe8l9rDwN5r2A17DkAa8Ez4Yl4yXqc5VqeGaXaJahzYYXbTwvhroZi0SNBqTwh/bKm2N0mpCzuw4bA==}
+    dev: false
