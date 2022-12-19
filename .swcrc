@@ -1,9 +1,12 @@
 {
+  "jsc": {
+    "parser": {
+      "syntax": "typescript"
+    },
+    "target": "es2021"
+  },
   "module": {
-    "type": "es6",
-    "strict": false,
-    "strictMode": true,
-    "lazy": false,
-    "noInterop": false
-  }
+    "type": "commonjs"
+  },
+  "sourceMaps": true
 }
